@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-bebasNeue: " BebasNeue", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --color-primary: #484747;
+  --color-secondary: #7d839f;
+  --color-tertiary: #0d0d0d
+
+}
+
