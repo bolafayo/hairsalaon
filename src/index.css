@@ -4,11 +4,15 @@
 
 
 @theme {
-  --font-bebasNeue: " BebasNeue", sans-serif;
+  --font-bebasNeue: " Bebas Neue", sans-serif;
   --font-roboto: "Roboto", sans-serif;
-  --color-primary: #484747;
+  --color-primary: #e7e7e7;
   --color-secondary: #7d839f;
-  --color-tertiary: #0d0d0d
+  --color-tertiary: #010101
 
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
