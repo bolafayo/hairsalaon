@@ -36,13 +36,13 @@ export default function Gallery() {
   };
   
   return (
-    <div className="relative bg-black text-white min-h-screen px-6 py-12">
+    <div className="relative bg-tertiary text-primary min-h-screen px-6 py-12">
   
     <div className="flex justify-between items-center mb-12 relative z-50">
       <div></div>
       <button
         onClick={handleToggle}
-        className="text-sm md:text-base uppercase tracking-wide text-gray-300 hover:text-purple-400 transition"
+        className="text-sm md:text-base uppercase tracking-wide text-primary -300 hover:text-purple-400 transition"
       >
         {visibleCount >= allData.length ? "View Less ↑" : "View More ↓"}
       </button>
@@ -50,7 +50,7 @@ export default function Gallery() {
   
      
       <h1 className="font-bebasNeue absolute top-10 left-6 text-[8rem] md:text-[12rem] font-extrabold uppercase tracking-tight mix-blend-difference pointer-events-none z-50 leading-none">
-        <span className="text-white">GALL</span>
+        <span className="text-primary">GALL</span>
         <span className="text-purple-500">ERY</span>
       </h1>
   
@@ -63,7 +63,7 @@ export default function Gallery() {
               alt={item.alt}
               className="w-full rounded-lg shadow-md"
             />
-            <p className="mt-2 text-sm uppercase tracking-wide text-gray-200">
+            <p className="mt-2 text-sm uppercase tracking-wide text-primary -200">
               {item.title}
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function Gallery() {
       </div>
   
      
-      <p className="mt-12 text-secondary -400 max-w-2xl relative z-20">
+      <p className="mt-12 font-bebasNeue text-primary -400 max-w-2xl relative  line-height-1 z-20">
         In the gallery you will find bright and stylish images created by our
         specialists, as well as the results of various procedures and cosmetic
         imaginations. We are proud of our achievements and are happy to share
