@@ -23,8 +23,7 @@ A modern and interactive **Hair Salon website** built with **React (Vite)** and 
 - **Services Page**: Clickable service categories (Cut & Styling, Coloring, Treatments, etc.)  
 - **About Page**: Rich descriptions with multiple images  
 - **Stylists Section**: Carousel of expert stylists with profile details and notifications on selection  
-- **Book Appointment Form**: Saves data in **localStorage** and shows confirmation alerts  
-- **Dark/Light Mode Toggle** for accessibility and user preference  
+- **Book Appointment Form**: Saves data in **localStorage** and shows confirmation alerts   
 - **Back Arrow Navigation** on each page to return to Home  
 
 ---
