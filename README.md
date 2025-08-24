@@ -12,7 +12,7 @@ A modern and interactive **Hair Salon website** built with **React (Vite)** and 
 ---
 
 ## Demo  
-👉 Live Demo (Add your deployed link here)  
+👉 Live Demo (https://hairsalaon-git-main-bolade-olufayos-projects.vercel.app/)  
 
 ![demo-image](demo.png)  
 
