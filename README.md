@@ -7,14 +7,14 @@ A modern and interactive **Hair Salon website** built with **React (Vite)** and 
 
 💡 Designed with a focus on **clean UI/UX**, **dark & light mode support**, and smooth navigation, this project demonstrates the ability to build a responsive, client-focused application with real-world usability.  
 
-![Alt text](./public/pho5.png)
+![Alt text](/public/pho5.png)
 
 ---
 
 ## Demo  
 👉 Live Demo (https://hairsalaon.vercel.app/)  
 
-![demo-image](demo.png)  
+
 
 ---
 
