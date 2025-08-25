@@ -1,11 +1,11 @@
-# hairsalaon
+# hairsalon
 
 # 💇‍♀ Hair Salon Web Application  
 
 ## Description  
 A modern and interactive **Hair Salon website** built with **React (Vite)** and **TypeScript**, designed to showcase salon services, stylists, and allow clients to **book appointments**. The app features dynamic service navigation, an about section with images, stylist profiles, and a contact form integrated with localStorage for appointment tracking.  
 
-💡 Designed with a focus on **clean UI/UX**, **dark & light mode support**, and smooth navigation, this project demonstrates the ability to build a responsive, client-focused application with real-world usability.  
+💡 Designed with a focus on smooth navigation, this project demonstrates the ability to build a responsive, client-focused application with real-world usability.  
 
 ![Alt text](/public/pho5.png)
 
