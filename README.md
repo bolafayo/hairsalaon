@@ -7,7 +7,7 @@ A modern and interactive **Hair Salon website** built with **React (Vite)** and 
 
 💡 Designed with a focus on **clean UI/UX**, **dark & light mode support**, and smooth navigation, this project demonstrates the ability to build a responsive, client-focused application with real-world usability.  
 
-![Alt text](C:\Users\Bolafayo\Pictures\Screenshot 2025-08-23 202029.png)
+![Alt text](./public/pho5.png)
 
 ---
 
