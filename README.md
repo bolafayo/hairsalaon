@@ -7,7 +7,7 @@ A modern and interactive **Hair Salon website** built with **React (Vite)** and 
 
 💡 Designed with a focus on smooth navigation, this project demonstrates the ability to build a responsive, client-focused application with real-world usability.  
 
-![Alt text](/public/pho5.png) 
+![Alt text](public/pho5.png) 
 
 ---
 
@@ -45,3 +45,21 @@ A modern and interactive **Hair Salon website** built with **React (Vite)** and 
 Clone the repository:  
 ```bash
 git clone https://github.com/your-username/hair-salon.git
+```
+### Contributing
+
+- **Contributions are welcome! Please follow the project’s coding style and open a pull request**.
+
+- **Steps to contribute**:
+
+- **Fork the repository**
+
+- **Clone your forked repo**
+
+- **Create a new branch**
+
+- **Commit and push changes**
+
+- **Open a Pull Request**
+
+
