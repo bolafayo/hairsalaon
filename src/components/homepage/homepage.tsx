@@ -10,11 +10,18 @@ export default function Homepage() {
      <div className="relative -screen bg-secondary ">
      <Navbar />
       </div>
-      <div className=" bg-secondary flex w-full justify-center h-230 p-8  ">
-  
-      <img src="https://i.pinimg.com/1200x/4e/91/2e/4e912ee6f747464dad25a7c212c59fd5.jpg" alt="" />
-      <img src="https://i.pinimg.com/736x/fb/9f/3b/fb9f3b38675904afa304c7720021848f.jpg" alt="" />
-   </div> 
+      <div className="bg-secondary flex flex-col md:flex-row w-full justify-center h-auto p-4 ">
+  <img
+    src="https://i.pinimg.com/1200x/4e/91/2e/4e912ee6f747464dad25a7c212c59fd5.jpg"
+    alt=""
+    className="w-full md:w-[35rem] h-auto object-cover rounded-lg"
+  />
+  <img
+    src="https://i.pinimg.com/736x/fb/9f/3b/fb9f3b38675904afa304c7720021848f.jpg"
+    alt=""
+    className="w-full md:w-[35rem] h-auto object-cover rounded-lg"
+  />
+</div>
    
     <Gallery />
      <Stylist />
