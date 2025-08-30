@@ -71,16 +71,16 @@ export default function StylistsSection() {
 
           <button
             onClick={chooseStylist}
-            className="bg-tertiary text-primary px-6 py-3 mt-4 w-fit hover:bg-gray-800 transition"
+            className="bg-tertiary cursor-pointer text-primary px-6 py-3 mt-4 w-fit hover:bg-gray-800 transition"
           >
             Choose a Specialist
           </button>
 
           <div className="flex justify-between mt-6">
-            <button onClick={prev} className="p-2 border rounded hover:bg-primary-200">
+            <button onClick={prev} className=" p-2 border rounded hover:bg-primary-200 cursor-pointer">
               ←
             </button>
-            <button onClick={next} className="p-2 border rounded hover:bg-primary-200">
+            <button onClick={next} className="p-2 border rounded hover:bg-primary-200  cursor-pointer">
               →
             </button>
           </div>
