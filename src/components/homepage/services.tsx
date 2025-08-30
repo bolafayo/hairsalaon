@@ -45,19 +45,19 @@ export default function Services() {
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen px-10 py-12">
+    <div className="bg-primary -100 min-h-screen px-10 py-12">
      <Backarrow />
-      <div className="flex justify-between items-start mt-3">
-        <h1 className="text-5xl font-bebasNeue">SERVICES</h1>
+      <div className="flex flex-col md:flex-row justify-between items-start mt-3">
+        <h1 className="text-4xl md:text-5xl font-bebasNeue mb-4 md:mb-0">SERVICES</h1>
      
-        <div className="flex space-x-6 text-sm font-semibold tracking-wide">
+        <div className="flex md:space-x-6 text-sm font-semibold tracking-wide overflow-x-auto md:overflow-visible w-full md:w-auto space-x-4 cursor-pointer ">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               className={`pb-1 ${
                 activeTab === tab.id
-                  ? "border-b-2 border-tertiary text-tertiary"
-                  : "text-secondary -600 hover:text-tertiary"
+                  ? "border-b-2 border-tertiary text-tertiary cursor-pointer "
+                  : "text-secondary -600 hover:text-tertiary cursor-pointer "
               }`}
               onClick={() => setActiveTab(tab.id)}
             >
@@ -68,27 +68,27 @@ export default function Services() {
       </div>
 
      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-10 w-fit m-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 max-w-6xl mx-auto px-2">
         <img
           src={content[activeTab].img1}
           alt={content[activeTab].title}
-          className="w-full h-[550px] object-cover"
+          className="w-full h-[550px] object-cover  rounded-lg shadow"
         />
         <img
           src={content[activeTab].img2}
           alt={content[activeTab].title}
-          className="w-full h-[550px] object-cover"
+          className="w-full h-[550px] object-cover rounded-lg shadow"
         />
       </div>
 
      
-      <p className="mt-6 text-lg text-secondary font-bebasNeue -600">{content[activeTab].desc}</p>
+      <p className="mx-6 text-lg text-secondary font-bebasNeue -600 mt-8">{content[activeTab].desc}</p>
 
     
-      <div className="mt-10">
+      <div className="mt-10 flex justify-center">
         <button
           onClick={() => navigate("/#contact")}
-          className="w-full bg-tertiary text-primary py-3 font-bebasNeue rounded-lg hover:bg-secondary uppercase"
+          className="w-70  bg-tertiary text-primary py-3 font-bebasNeue rounded-lg hover:bg-secondary uppercase cursor-pointer"
         >
           BOOK AN APPOINTMENT
         </button>
