@@ -42,17 +42,24 @@ export default function Gallery() {
       <div></div>
       <button
         onClick={handleToggle}
-        className="text-sm md:text-base uppercase tracking-wide text-primary -300 hover:text-purple-400 transition"
+        className="cursor-pointer text-sm md:text-base uppercase tracking-wide text-primary -300 hover:text-purple-400 transition "
       >
         {visibleCount >= allData.length ? "View Less ↑" : "View More ↓"}
       </button>
     </div>
   
      
-      <h1 className="font-bebasNeue absolute top-10 left-6 text-[8rem] md:text-[12rem] font-extrabold uppercase tracking-tight mix-blend-difference pointer-events-none z-50 leading-none">
-        <span className="text-primary">GALL</span>
-        <span className="text-purple-500">ERY</span>
-      </h1>
+    <h1
+  className="font-bebasNeue absolute 
+  top-6 left-3  text-[3rem] sm:text-[4rem]md:text-[7rem] lg:text-[12rem]    
+  font-extrabold uppercase tracking-tight 
+  mix-blend-difference pointer-events-none 
+  z-50 leading-tight"
+>
+  <span className="text-primary">GALL</span>
+  <span className="text-purple-500">ERY</span>
+</h1>
+
   
     
       <div className="columns-2 md:columns-3 lg:columns-4 gap-6 space-y-6 relative z-20">
