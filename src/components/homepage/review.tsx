@@ -64,7 +64,7 @@ const ReviewSection: React.FC = () => {
       <div className="flex -center justify-end mt-8">
           <button
             onClick={handleToggle}
-            className="px-6 py-2 border border-tertiary text-tertiary hover:bg-white hover:text-tertiary transition"
+            className=" cursor-pointer px-6 py-2 border border-tertiary text-tertiary hover:bg-white hover:text-tertiary transition"
           >
             {visibleCount >= reviews.length ? "Show Less" : "Show More"}
           </button>
